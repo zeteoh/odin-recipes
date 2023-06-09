@@ -1,0 +1,38 @@
+.card{
+    /* From https://css.glass */
+    background: rgba(225, 206, 206, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(225, 206, 206, 0.3);
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.recipe-book{
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-book-img{
+    width:35%;
+    height: 35%;
+}
+
+.recipe-list{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.pasta{
+    transition: transform .2s
+}
+
+.pasta:hover{
+    transform: scale(1.5);
+}
