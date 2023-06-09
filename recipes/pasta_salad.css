@@ -25,11 +25,11 @@ body {
 .box{
     display: flex;
     justify-content: center;
-    background-color: #b2ad7f
+    /* background-color: #b2ad7f */
 }
 
 h1{
-    background-color: #a2b9bc;
+    /* background-color: #a2b9bc; */
     padding-top: 50px;
     padding-bottom: 50px;
     margin: 0 auto;

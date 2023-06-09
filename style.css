@@ -1,3 +1,4 @@
+
 .card{
     /* From https://css.glass */
     background: rgba(225, 206, 206, 0.2);
@@ -5,8 +6,7 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(225, 206, 206, 0.3);
-    margin: auto;
+    border: 1px solid rgba(225, 206, 206, 0.3);  
 }
 
 .title{
@@ -25,14 +25,15 @@
 
 .recipe-list{
     padding-top: 50px;
-    display: flex;
+    display: flexbox;
     justify-content: center;
+    text-align: center;
 }
 
-.pasta{
+.pasta, .beef, .salad, .ramen{
     transition: transform .2s
 }
 
-.pasta:hover{
+.pasta:hover, .beef:hover, .salad:hover, .ramen:hover{
     transform: scale(1.5);
 }
