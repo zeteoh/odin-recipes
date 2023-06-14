@@ -1,7 +1,7 @@
 
 .card{
     /* From https://css.glass */
-    background: rgba(225, 206, 206, 0.2);
+    background: rgba(248, 241, 241, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -14,26 +14,45 @@
 }
 
 .recipe-book{
-    display: flex;
-    justify-content: center;
+    width: 45%;
+    display: inline-flex;
+    justify-content: left;
+    padding: 20px;
 }
 
 .recipe-book-img{
-    width:35%;
-    height: 35%;
+    width:80%;
+    height: 80%;
 }
 
 .recipe-list{
-    padding-top: 50px;
-    display: flexbox;
-    justify-content: center;
-    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
 }
 
 .pasta, .beef, .salad, .ramen{
-    transition: transform .2s
+    transition: transform .2s;
+    width: 40px;
+}
+
+p{
+    display: inline;
 }
 
 .pasta:hover, .beef:hover, .salad:hover, .ramen:hover{
     transform: scale(1.5);
+}
+
+.pasta-container{
+    padding-bottom: 5px;
+}
+
+.beef-container{
+    padding-bottom: 5px;
+}
+
+.salad-container{
+    padding-bottom: 5px;
 }
