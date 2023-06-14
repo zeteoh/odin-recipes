@@ -23,12 +23,14 @@
 .recipe-book-img{
     width:80%;
     height: 80%;
+    margin: 0 auto;
 }
 
 .recipe-list{
     padding-top: 10px;
     display: inline-block;
     width: 45%;
+    height: 100%;
     vertical-align: top;
 }
 
@@ -45,14 +47,18 @@ p{
     transform: scale(1.5);
 }
 
+.pasta-container, .beef-container, .salad-container, .ramen-container{
+    text-align: center;
+}
+
 .pasta-container{
-    padding-bottom: 5px;
+    padding-bottom: 8%;
 }
 
 .beef-container{
-    padding-bottom: 5px;
+    padding-bottom: 8%;
 }
 
 .salad-container{
-    padding-bottom: 5px;
+    padding-bottom: 8%;
 }
